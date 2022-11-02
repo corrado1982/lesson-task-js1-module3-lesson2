@@ -24,42 +24,22 @@ messageInHtml.innerHTML = insertMessage;
 
 //Question 3
 
+//                  RIGHT ONE
 
-
-async function getFact() {
-    try {
-        const response = await fetch("https://cat-fact.herokuapp.com/facts");
-        const results = await response.json();
-        console.log(results[8].text);
-      
-    }
-
-    
-    catch(error) {
-        console.log(error);
-    }
-    finally {
-        console.log("did you find?")
-    }
-}
-
-getFact();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// async function getFact() {
+//     try {
+//         const response = await fetch("https://cat-fact.herokuapp.com/facts");
+//         const results = await response.json();
+//         console.log(results[8].text);
+//     }
+//     catch(error) {
+//         console.log(error);
+//     }
+//     finally {
+//         console.log("did you find?")
+//     }
+// }
+// getFact();
 
 
 
