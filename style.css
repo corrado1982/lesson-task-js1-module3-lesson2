@@ -1,0 +1,19 @@
+.someStyle {
+    /* border: solid; */
+    max-width: 200px;
+    /* padding: 1rem; */
+    /* background-color: rgba(172, 255, 47, 0.274); */
+    
+    /* color: grey; */
+}
+.warning {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.300);
+    border-color: red;
+}
+
+.success {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.300);
+    border-color: green;
+}
